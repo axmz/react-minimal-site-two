@@ -25,7 +25,7 @@ const Credits = () => {
                 <a href="https://unsplash.com/@jolt?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Malmo image</a>
             </div>
             <div>
-                <a href="https://unsplash.com/@gauravdsb?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Birds homepage image</a>
+                <a href="https://unsplash.com/@gauravdsb?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">birds homepage image</a>
             </div>
         </div>
     )

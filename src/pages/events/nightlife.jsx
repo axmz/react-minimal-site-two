@@ -5,7 +5,7 @@ const Nightlife = () => {
     return (
         <div className="page--nightlife">
             <div className="image"> 
-                <span>nighlife</span>
+                <span>nightlife</span>
             </div>
         </div>
     )

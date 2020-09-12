@@ -8,7 +8,7 @@ import { Switch, Route } from 'react-router-dom';
 function App() {
   return (
     <div className="App">
-      <Switch>
+      <Switch >
           <Route path={["/places/:city", "/places"]}>
             <Places />
           </Route>

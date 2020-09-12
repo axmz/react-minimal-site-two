@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/react-minimal-site-two/static/css/main.af96e90b.chunk.css",
+    "main.js": "/react-minimal-site-two/static/js/main.1d198f40.chunk.js",
+    "main.js.map": "/react-minimal-site-two/static/js/main.1d198f40.chunk.js.map",
+    "runtime-main.js": "/react-minimal-site-two/static/js/runtime-main.a7e75afb.js",
+    "runtime-main.js.map": "/react-minimal-site-two/static/js/runtime-main.a7e75afb.js.map",
+    "static/js/2.c64bdb59.chunk.js": "/react-minimal-site-two/static/js/2.c64bdb59.chunk.js",
+    "static/js/2.c64bdb59.chunk.js.map": "/react-minimal-site-two/static/js/2.c64bdb59.chunk.js.map",
+    "index.html": "/react-minimal-site-two/index.html",
+    "precache-manifest.2ec91b578f0e38ee96ed0fcce7a3d8b1.js": "/react-minimal-site-two/precache-manifest.2ec91b578f0e38ee96ed0fcce7a3d8b1.js",
+    "service-worker.js": "/react-minimal-site-two/service-worker.js",
+    "static/css/main.af96e90b.chunk.css.map": "/react-minimal-site-two/static/css/main.af96e90b.chunk.css.map",
+    "static/js/2.c64bdb59.chunk.js.LICENSE.txt": "/react-minimal-site-two/static/js/2.c64bdb59.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/react-minimal-site-two/static/media/birds.46df4ee0.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a7e75afb.js",
+    "static/js/2.c64bdb59.chunk.js",
+    "static/css/main.af96e90b.chunk.css",
+    "static/js/main.1d198f40.chunk.js"
+  ]
+}

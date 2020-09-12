@@ -1,0 +1,157 @@
+.page--art,
+.page--music,
+.page--nightlife,
+.page--london,
+.page--berlin,
+.page--malmo,
+.page--home,
+.page--about,
+.page--contacts,
+.page--credits {
+    position: relative;
+    height: 100%;
+}
+
+/* Common */
+.image {
+    min-height: 100%;
+    min-width: 100%;
+    overflow: hidden;
+}
+
+.page--art > .image {
+    background: url(../pages/events/images/HarpersBazaar.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.page--music > .image {
+    background: url(../pages/events/images/Glastonbury.webp) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.page--nightlife > .image {
+    background: url(../pages/events/images/Berghain.jpg) no-repeat bottom center fixed;
+    background-size: cover;
+}
+
+.page--london > .image {
+    background: url(../pages/places/images/London.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.page--berlin > .image {
+    background: url(../pages/places/images/Berlin.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.page--malmo > .image {
+    background: url(../pages/places/images/Malmo.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.page--home > .image {
+    background: url(../pages/home/images/birds.jpg) no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page--art span {
+    position: absolute;
+    color: white;
+    font-size: 38vw;
+    bottom: -10vw;
+}
+
+.page--music span {
+    position: absolute;
+    top: -16vw;
+    left: -8vw;
+    color: white;
+    font-size: 35vw;
+}
+
+.page--nightlife span {
+    position: absolute;
+    left: -8vw;
+    color: white;
+    font-size: 36vw;
+}
+
+.page--london span {
+    position: absolute;
+    bottom: 2vw;
+    font-size: 4vw;
+    background-color: white;
+    padding: 0 1rem;
+    mix-blend-mode: screen;
+}
+
+.page--berlin span {
+    position: absolute;
+    bottom: 2vw;
+    font-size: 4vw;
+    padding: 0 1rem;
+    color: black;
+    mix-blend-mode: soft-light;
+    background-color: white;
+}
+
+.page--malmo span {
+    position: absolute;
+    bottom: 2vw;
+    font-size: 4vw;
+    padding: 0 1rem;
+    color: black;
+    mix-blend-mode: soft-light;
+    background-color: white;
+}
+
+.page--home span {
+    font-family: "Parisienne", consolas;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.page--home span::first-letter {
+    font-size: 10rem;
+}
+
+.page--about {
+    padding: 3rem;
+}
+
+.page--contacts {
+    padding: 3rem;
+}
+
+.page--credits {
+    padding: 3rem;
+}
+
+@media screen and (max-width: 992px) {
+    .page--london span {
+        top: 1rem;
+        right: 0rem;
+        bottom: unset;
+        font-size: 3rem;
+        color: white;
+        mix-blend-mode: multiply;
+        background-color: grey;
+    }
+
+    .page--berlin span {
+        top: 1rem;
+        right: 0rem;
+        bottom: unset;
+        font-size: 3rem;
+    }
+
+    .page--malmo span {
+        top: 1rem;
+        right: 0rem;
+        bottom: unset;
+        font-size: 3rem;
+    }
+}
